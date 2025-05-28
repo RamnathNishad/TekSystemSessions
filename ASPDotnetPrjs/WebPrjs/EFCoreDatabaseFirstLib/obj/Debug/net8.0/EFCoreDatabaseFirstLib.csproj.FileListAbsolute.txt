@@ -1,0 +1,12 @@
+D:\TekSystem_NIIT\aspdotnetsessiondemos\ASPDotnetPrjs\WebPrjs\EFCoreDatabaseFirstLib\bin\Debug\net8.0\EFCoreDatabaseFirstLib.deps.json
+D:\TekSystem_NIIT\aspdotnetsessiondemos\ASPDotnetPrjs\WebPrjs\EFCoreDatabaseFirstLib\bin\Debug\net8.0\EFCoreDatabaseFirstLib.dll
+D:\TekSystem_NIIT\aspdotnetsessiondemos\ASPDotnetPrjs\WebPrjs\EFCoreDatabaseFirstLib\bin\Debug\net8.0\EFCoreDatabaseFirstLib.pdb
+D:\TekSystem_NIIT\aspdotnetsessiondemos\ASPDotnetPrjs\WebPrjs\EFCoreDatabaseFirstLib\obj\Debug\net8.0\EFCoreDatabaseFirstLib.csproj.AssemblyReference.cache
+D:\TekSystem_NIIT\aspdotnetsessiondemos\ASPDotnetPrjs\WebPrjs\EFCoreDatabaseFirstLib\obj\Debug\net8.0\EFCoreDatabaseFirstLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\TekSystem_NIIT\aspdotnetsessiondemos\ASPDotnetPrjs\WebPrjs\EFCoreDatabaseFirstLib\obj\Debug\net8.0\EFCoreDatabaseFirstLib.AssemblyInfoInputs.cache
+D:\TekSystem_NIIT\aspdotnetsessiondemos\ASPDotnetPrjs\WebPrjs\EFCoreDatabaseFirstLib\obj\Debug\net8.0\EFCoreDatabaseFirstLib.AssemblyInfo.cs
+D:\TekSystem_NIIT\aspdotnetsessiondemos\ASPDotnetPrjs\WebPrjs\EFCoreDatabaseFirstLib\obj\Debug\net8.0\EFCoreDatabaseFirstLib.csproj.CoreCompileInputs.cache
+D:\TekSystem_NIIT\aspdotnetsessiondemos\ASPDotnetPrjs\WebPrjs\EFCoreDatabaseFirstLib\obj\Debug\net8.0\EFCoreDatabaseFirstLib.dll
+D:\TekSystem_NIIT\aspdotnetsessiondemos\ASPDotnetPrjs\WebPrjs\EFCoreDatabaseFirstLib\obj\Debug\net8.0\refint\EFCoreDatabaseFirstLib.dll
+D:\TekSystem_NIIT\aspdotnetsessiondemos\ASPDotnetPrjs\WebPrjs\EFCoreDatabaseFirstLib\obj\Debug\net8.0\EFCoreDatabaseFirstLib.pdb
+D:\TekSystem_NIIT\aspdotnetsessiondemos\ASPDotnetPrjs\WebPrjs\EFCoreDatabaseFirstLib\obj\Debug\net8.0\ref\EFCoreDatabaseFirstLib.dll

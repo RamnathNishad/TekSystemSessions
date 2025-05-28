@@ -1,0 +1,145 @@
+MVC::- Model-View-Controller is a design pattern for developing application to have more modularity and testability and reusability of the code. Separation of responsibility is better.
+
+
+Model:- Data models representing the application entities and Data Access Layer
+View:- Html response as an output
+Controller:- Processing the request coming from user and return response like View+Data(Model)
+
+
+user---->request---->Controller--->Action methods---->uses Model---->Return View--->Response
+
+Types of Views:-
+a) weakly-typed views:- no model is binded with the view
+b) strongly-typed views:- model is binded with the view. At the top view file we have the line:
+					@model <model-classname>
+
+How to pass data from Action to View:-
+1) ViewData:- It is a dictionary using key/value pass from action method to its view.  Scope is from action to its view not to the other action or view
+-While accessing we need to type-cast before accessing.
+
+2) ViewBag:- It is also passed using key/value and with same scope as ViewData ie. can be accessed from action to only its view. It is dynamic type hence while accessing no need to type-case but no intelligence will be there since its type is dynamic.
+
+3) TempData:- It is also with key/value pair but scope is across controllers and action/views but it is removed from the memory as soon as it is accessed. This is default behavior but if u want to retain while accessing, we need to call TempData.Keep() --to retain all keys or TempData.Keep("key") to retain a particular key. Need type-casting while accessing.
+
+
+=============================EntityFramework Core Data-Access Layer===================================
+-ADO.NET ----Data Access component but  there is lot of abstraction of database object from developers and ADO.NET codes are tightly coupled with application code.
+
+CRUD------->
+	cmd----->select ecode, ename,salary from tbl_employee-------------------------<database table (ecode,empname,salary))
+
+	class model----->ecode,ename,salary,deptid
+
+
+EF------>Open-source ORM (Object-Relational Mapping) tool----->It maps the tables into application models so developers can do modifications in the model or/and tables without much worry and EF will take care of mapping between them.
+
+model----ecode---------------ORM  mapper-------------------dabatase(id)
+
+EF Core has two approaches:-
+1) Database-first approach:- already database is there and models will be defined as per tables and objects
+2) Code-first approach:- first models and database context class is defined and using EF Core database and tables are generated.
+It is done using database migration commands.
+
+EF Core-----ORM + Linq syntax(for DML and QUERIES)
+
+App(Console,WEB(MVC,WEB API))---------->DataAccessLayer------>EF Core/ADO.NET------>Database(SQL Server)--->Tables
+
+A)Steps for Database-First Approach:
+1) install the following packages:
+-Microsoft.EntityFrameworkCore
+-Microsoft.EntityFrameworkCore.SqlServer (specifically for MS Sql Server)
+
+2) Define the Model classes to represent the tables
+	public class Employee
+	{
+		public int Ecode {get;set;}
+		public string Ename{get;set;}
+		public int Salary{get;set;}
+		public int Deptid{get;set;}
+	}	
+
+3) Define the Database Context class and use the above model to represent thru context
+	public class EmpDbContext : DbContext
+	{
+		public EmpDbContext (DbContextOption<EmpDbContext > options) : base(options)
+		{
+
+		}
+		public DbSet<Employee> tbl_employee{get;set;}
+	}
+
+database context is for connection with database server so it need connection string for the server.
+DbContextOption<> can be used to configure different database configurations like connection string and it is done
+in Program.cs file in the Main method
+
+4) Using the step 3 DbContext we can interact with database for DML and queries using Linq
+	we shud define repository pattern using interface and DAL class
+
+	public interface IEmpDataAccess
+	{
+		//crud methods
+		List<Employee> GetEmps();
+	}
+	public class EmpDataAccess : IEmpDataAccess
+	{
+		public List<Employee> GetEmps()
+		{
+			//LINQ for returning records
+		}	
+	}
+
+5) Configure dependency injection for this DataAccesLayer class and inject this in the controller and use it
+	--dependency injection is configured in Program.cs using few methods:
+		a) builder.Services.AddSingleton
+		b) builder.Services.AddScoped
+		c) builder.Services.AddTransient
+*Dependency injection is services which takes care of creating object instances and injection it into the application wherever it is 
+needed. We inject in the constructor method. It is in-built feature of ASp.NET Core
+	builder.Services.AddSingleton<IEmpDataAccess,EmpDataAccess>();
+
+
+
+class EmployeeController : Controller
+{
+	private readonly IEmpDataAccess dal;
+	public EmployeeController(IEmpDataAccess dal)
+	{
+		this.dal=dal;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

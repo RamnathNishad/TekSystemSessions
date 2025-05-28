@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|d:\\teksystem_niit\\aspdotnetsessiondemos\\aspdotnetprjs\\webprjs\\mvchelloworld\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|solutionrelative:mvchelloworld\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}|EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj|d:\\teksystem_niit\\aspdotnetsessiondemos\\aspdotnetprjs\\webprjs\\efcoredatabasefirstlib\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}|EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj|solutionrelative:efcoredatabasefirstlib\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}|EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj|d:\\teksystem_niit\\aspdotnetsessiondemos\\aspdotnetprjs\\webprjs\\efcoredatabasefirstlib\\empdataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}|EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj|solutionrelative:efcoredatabasefirstlib\\empdataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EmpDB/True/SqlTable/dbo.tbl_employee.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|d:\\teksystem_niit\\aspdotnetsessiondemos\\aspdotnetprjs\\webprjs\\mvchelloworld\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|solutionrelative:mvchelloworld\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|d:\\teksystem_niit\\aspdotnetsessiondemos\\aspdotnetprjs\\webprjs\\mvchelloworld\\views\\employee\\secondpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|solutionrelative:mvchelloworld\\views\\employee\\secondpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|d:\\teksystem_niit\\aspdotnetsessiondemos\\aspdotnetprjs\\webprjs\\mvchelloworld\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|solutionrelative:mvchelloworld\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|d:\\teksystem_niit\\aspdotnetsessiondemos\\aspdotnetprjs\\webprjs\\mvchelloworld\\views\\employee\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|solutionrelative:mvchelloworld\\views\\employee\\home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|d:\\teksystem_niit\\aspdotnetsessiondemos\\aspdotnetprjs\\webprjs\\mvchelloworld\\views\\employee\\getdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|solutionrelative:mvchelloworld\\views\\employee\\getdata.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|d:\\teksystem_niit\\aspdotnetsessiondemos\\aspdotnetprjs\\webprjs\\mvchelloworld\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|solutionrelative:mvchelloworld\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|d:\\teksystem_niit\\aspdotnetsessiondemos\\aspdotnetprjs\\webprjs\\mvchelloworld\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|solutionrelative:mvchelloworld\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|d:\\teksystem_niit\\aspdotnetsessiondemos\\aspdotnetprjs\\webprjs\\mvchelloworld\\views\\employee\\displayemps.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|solutionrelative:mvchelloworld\\views\\employee\\displayemps.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|d:\\teksystem_niit\\aspdotnetsessiondemos\\aspdotnetprjs\\webprjs\\mvchelloworld\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|solutionrelative:mvchelloworld\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}|EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj|d:\\teksystem_niit\\aspdotnetsessiondemos\\aspdotnetprjs\\webprjs\\efcoredatabasefirstlib\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}|EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj|solutionrelative:efcoredatabasefirstlib\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}|EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj|d:\\teksystem_niit\\aspdotnetsessiondemos\\aspdotnetprjs\\webprjs\\efcoredatabasefirstlib\\iempdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}|EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj|solutionrelative:efcoredatabasefirstlib\\iempdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d3b2a3b3-1bca-4bbb-9fef-34fce2d3e473MSSQL__/_localdb__MSSQLLocalDB/EmpDB/True/SqlTable/Create dbo.tbl_employee.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}|EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj|d:\\teksystem_niit\\aspdotnetsessiondemos\\aspdotnetprjs\\webprjs\\efcoredatabasefirstlib\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}|EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj|solutionrelative:efcoredatabasefirstlib\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|d:\\teksystem_niit\\aspdotnetsessiondemos\\aspdotnetprjs\\webprjs\\mvchelloworld\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|solutionrelative:mvchelloworld\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|d3b2a3b3-1bca-4bbb-9fef-34fce2d3e473MSSQL__/_localdb__MSSQLLocalDB/EmpDB/True/SqlTable/Create dbo.tbl_employee.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.tbl_employee [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EmpDB/True/SqlTable/dbo.tbl_employee.sql",
+              "ToolTip": "dbo.tbl_employee [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-28T06:59:34.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SecondPage.cshtml",
+              "DocumentMoniker": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Views\\Employee\\SecondPage.cshtml",
+              "RelativeDocumentMoniker": "MVCHelloWorld\\Views\\Employee\\SecondPage.cshtml",
+              "ToolTip": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Views\\Employee\\SecondPage.cshtml",
+              "RelativeToolTip": "MVCHelloWorld\\Views\\Employee\\SecondPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T06:57:16.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCHelloWorld\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "MVCHelloWorld\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T06:57:12.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Views\\Employee\\Home.cshtml",
+              "RelativeDocumentMoniker": "MVCHelloWorld\\Views\\Employee\\Home.cshtml",
+              "ToolTip": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Views\\Employee\\Home.cshtml",
+              "RelativeToolTip": "MVCHelloWorld\\Views\\Employee\\Home.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T06:57:04.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GetData.cshtml",
+              "DocumentMoniker": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Views\\Employee\\GetData.cshtml",
+              "RelativeDocumentMoniker": "MVCHelloWorld\\Views\\Employee\\GetData.cshtml",
+              "ToolTip": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Views\\Employee\\GetData.cshtml",
+              "RelativeToolTip": "MVCHelloWorld\\Views\\Employee\\GetData.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T06:57:01.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\Employee.cs",
+              "RelativeDocumentMoniker": "EFCoreDatabaseFirstLib\\Employee.cs",
+              "ToolTip": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\Employee.cs",
+              "RelativeToolTip": "EFCoreDatabaseFirstLib\\Employee.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T06:55:52.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Program.cs",
+              "RelativeDocumentMoniker": "MVCHelloWorld\\Program.cs",
+              "ToolTip": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Program.cs",
+              "RelativeToolTip": "MVCHelloWorld\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAywBQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T06:38:42.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmpDataAccessLayer.cs",
+              "DocumentMoniker": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EmpDataAccessLayer.cs",
+              "RelativeDocumentMoniker": "EFCoreDatabaseFirstLib\\EmpDataAccessLayer.cs",
+              "ToolTip": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EmpDataAccessLayer.cs",
+              "RelativeToolTip": "EFCoreDatabaseFirstLib\\EmpDataAccessLayer.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T06:29:57.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IEmpDataAccess.cs",
+              "DocumentMoniker": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\IEmpDataAccess.cs",
+              "RelativeDocumentMoniker": "EFCoreDatabaseFirstLib\\IEmpDataAccess.cs",
+              "ToolTip": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\IEmpDataAccess.cs",
+              "RelativeToolTip": "EFCoreDatabaseFirstLib\\IEmpDataAccess.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T06:27:57.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmployeeDbContext.cs",
+              "DocumentMoniker": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EmployeeDbContext.cs",
+              "RelativeDocumentMoniker": "EFCoreDatabaseFirstLib\\EmployeeDbContext.cs",
+              "ToolTip": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EmployeeDbContext.cs",
+              "RelativeToolTip": "EFCoreDatabaseFirstLib\\EmployeeDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAywA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T06:22:52.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\Class1.cs",
+              "RelativeDocumentMoniker": "EFCoreDatabaseFirstLib\\Class1.cs",
+              "ToolTip": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\Class1.cs",
+              "RelativeToolTip": "EFCoreDatabaseFirstLib\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T05:16:42.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create dbo.tbl_employee ",
+              "DocumentMoniker": "d3b2a3b3-1bca-4bbb-9fef-34fce2d3e473MSSQL__/_localdb__MSSQLLocalDB/EmpDB/True/SqlTable/Create dbo.tbl_employee.sql",
+              "ToolTip": "Create dbo.tbl_employee ",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-28T05:08:31.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Views\\Employee\\Details.cshtml",
+              "RelativeDocumentMoniker": "MVCHelloWorld\\Views\\Employee\\Details.cshtml",
+              "ToolTip": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Views\\Employee\\Details.cshtml",
+              "RelativeToolTip": "MVCHelloWorld\\Views\\Employee\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T09:30:03.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MVCHelloWorld\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "MVCHelloWorld\\Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T09:20:41.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "MVCHelloWorld\\Models\\Employee.cs",
+              "ToolTip": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Models\\Employee.cs",
+              "RelativeToolTip": "MVCHelloWorld\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T09:00:56.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "MVCHelloWorld\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "MVCHelloWorld\\Views\\Employee\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T08:50:28.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "MVCHelloWorld\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "MVCHelloWorld\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA1wBsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T08:48:37.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DisplayEmps.cshtml",
+              "DocumentMoniker": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Views\\Employee\\DisplayEmps.cshtml",
+              "RelativeDocumentMoniker": "MVCHelloWorld\\Views\\Employee\\DisplayEmps.cshtml",
+              "ToolTip": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Views\\Employee\\DisplayEmps.cshtml",
+              "RelativeToolTip": "MVCHelloWorld\\Views\\Employee\\DisplayEmps.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T08:48:13.545Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

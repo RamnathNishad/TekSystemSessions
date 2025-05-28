@@ -1,0 +1,289 @@
+Mongodb:-
+
+NOSQL:-  Not Only SQL:-
+SQL vs NOSQL:- 
+-SQL has predefined schema, no dynamic schema so cannot be changed at runtime based on data.
+-Mongodb is NOSQL database
+-Sharding is one imp feature of NOSQL database i.e. scaling of database
+
+Features:-
+-No relational records are stored as related data is stored in the same document.
+-No transaction support
+-No fixed schema
+-no constraints
+-uses denormalized database i.e. related records are stored in the same document
+ 
+Records are stored as documents
+Table-----Collections
+Records ------Documents
+		{key:value}
+
+
+Data is stored in BSON format:- Binary JSON format
+
+
+a document(record) in JSON:
+	syntax=>
+	{
+		"ecode":101,
+		"ename":"Ramnath",
+		"salary":12345,
+		"address":
+		{
+			"city":"Bangalore"
+		}
+	}
+
+JSON records:
+	{
+		"id":1,
+		"name":"ravi"
+	},
+	{
+		"id":2,
+		"name":"ram"
+	},
+	{
+		"id":3,
+		"name":"rahul"
+	}
+
+Setup:
+	-install mongodb community edition
+	-configure dbpath and port number while starting database using "mongod" --dbpath=c:\
+
+Client:- 
+	-install mongoshell :-cli interface
+	-mongodb compass :- GUI 
+
+Note:-
+-u get default "test" database in mongodbshell
+-u can create ur own databse :  use xyz_db 
+	if it is already there, it will become active else it will create the database
+
+-to see the databse atleast one record is to be inserted
+-database has collections (similar to tables in RDBMS)
+-collection has dcuments (similar to recrds in RDBMS table)
+
+CRUD operations:-
+1) insert :
+	-db.collection.insertOne({});
+	-db.insertMany([{},{}])
+
+2) perform insert/update:-
+	syntax=>
+		db.<collection>.update(
+			<query>,
+			<update>,
+			{
+				upsert:<boolean>,
+				multi:<boolean>
+			}
+		)
+
+query: selection criteria for the update
+update:- modifications to be applied
+upsert:- optional, if set to true, creates new document if it doesn't find else updattion will be done if mathes
+multi:- optional, if set to false updates one document which matches first.
+
+
+example:
+	db.employees.updateOne(
+		{ecode:{$eq:101}},
+		{$set:{salary:5000,deptid:203}},
+		{upsert:true}
+	)
+
+==================Update operators=============
+a) $set :- sets the value of the field
+b) $inc : increments the field value
+e.g.
+	db.employee.updateOne(
+		{ecode:{$eq:101}},
+		{$inc:{salary:1000}}
+	)
+c) $mul: multipllies the field value
+	e.g.
+		db.employee.UpdateOne(
+			{ecode:{$eq:101}},
+			{$mul:{salary:2}}
+		)
+d) $unset: removes the property of the document
+e.g.
+	db.employee.updateOne(
+		{ecode:{$eq:101}},
+		{$unset:{salary:true}}
+	)
+
+e) $rename: renames the property of the document
+e.g.
+	db.employee.updateOne(
+		{ecode:{$eq:103}},
+		{
+			$rename:{ename:"empname"},
+			$unset:{salary:true}
+		}
+	) 
+
+--------------------------------Deleting the document---------------------------
+syntax=>
+	db.<collection>.deleteOne(
+		<query>
+	)
+
+e.g.
+	db.employee.deleteOne({ecode:101});
+
+==================comparison operators===============
+a) $gt:- greater than
+b) $lt:- less than
+c) $eq:- equal-to
+d) $gte:- greater than or equal to
+e) $lte:- less than or equal to
+f) $ne:- not equal to
+
+===========logical operators==========
+$and: all the conditions must be true
+$or:- either of the condition should be true
+$nor:- negates the array of conditions
+$exists:- checks whether the document with specified field is there
+
+
+Q. find the employees whose salary is greater than 5000 ad belongs to deptid 201
+syntax=> 	
+	db.<collection>.find(
+		{
+			$and:
+			[
+				{condition1},
+				{conditions2}
+			]	
+		}
+	)
+	db.employee.find(
+		{
+			$and:
+			[
+				{salary:{$gt:5000}},
+				{deptid:201}
+			]
+		}
+	)
+
+Q. find the employees having salary and deptid fields or not
+	db.employee.find(
+		{
+			$and:
+			[
+				{salary:{$exists:true}},
+				{ecode:{$exists:true}}
+			]
+		}
+	)
+
+Q. find the employees documens if salary exists and with value greater than 5000.
+
+------------------------sorting the documents--------------------
+db.employee.find().sort({salary:1})
+
+-1 : means descending order 
+1 : means ascending order
+
+
+Q. find the top fine highest salaried employees
+db.employee.find().sort({salary:-1}).limit(5)
+
+Q.Find the employees whose names starts with 'A'
+db.employee.find({ename:{$regex:/^A/}});
+
+Q. Find the employees who belongs to either 201 or 202 deptid
+	db.employee.find({
+		$or:
+		[
+			{deptid:201},
+			{deptid:201}
+		]
+	})
+same can be written using $in operater:
+	db.employee.find({deptid:{$in:[201,201]}})
+	db.employee.find({dname:{$in:['HR','ADMIN']}})
+
+
+------------------
+insert
+delete
+update
+-select queries
+-sorting
+-grouping
+
+SQL:
+select sum(salary),max(salary),avg(salary) 
+from employee
+group by deptid
+
+db.employees.aggregate(
+[
+	{
+		$group:{_id:"$deptid",totalSal:{$sum:"$salary"},noOfEmps:{$sum:1}}
+	},
+	{
+		$project:{deptid:"$_id",totalSal:1,noOfEmps:1}
+	}
+]
+)
+
+--more group accumulators can be used like:
+-$avg,$max,$min,$sum,$last,$first
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
