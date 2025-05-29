@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj": {}
+    "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj": {}
   },
   "projects": {
-    "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj": {
+    "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj",
+        "projectUniqueName": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj",
         "projectName": "EFCoreDatabaseFirstLib",
-        "projectPath": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj",
+        "projectPath": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj",
         "packagesPath": "C:\\Users\\raman\\.nuget\\packages\\",
-        "outputPath": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\obj\\",
+        "outputPath": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

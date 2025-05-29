@@ -1,0 +1,15 @@
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\EFCodeCodeFirstLib\bin\Debug\net8.0\EFCodeCodeFirstLib.deps.json
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\EFCodeCodeFirstLib\bin\Debug\net8.0\EFCodeCodeFirstLib.runtimeconfig.json
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\EFCodeCodeFirstLib\bin\Debug\net8.0\EFCodeCodeFirstLib.dll
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\EFCodeCodeFirstLib\bin\Debug\net8.0\EFCodeCodeFirstLib.pdb
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\EFCodeCodeFirstLib\obj\Debug\net8.0\EFCodeCodeFirstLib.csproj.AssemblyReference.cache
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\EFCodeCodeFirstLib\obj\Debug\net8.0\EFCodeCodeFirstLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\EFCodeCodeFirstLib\obj\Debug\net8.0\EFCodeCodeFirstLib.AssemblyInfoInputs.cache
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\EFCodeCodeFirstLib\obj\Debug\net8.0\EFCodeCodeFirstLib.AssemblyInfo.cs
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\EFCodeCodeFirstLib\obj\Debug\net8.0\EFCodeCodeFirstLib.csproj.CoreCompileInputs.cache
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\EFCodeCodeFirstLib\obj\Debug\net8.0\EFCodeCodeFirstLib.sourcelink.json
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\EFCodeCodeFirstLib\obj\Debug\net8.0\EFCodeCodeFirstLib.dll
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\EFCodeCodeFirstLib\obj\Debug\net8.0\refint\EFCodeCodeFirstLib.dll
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\EFCodeCodeFirstLib\obj\Debug\net8.0\EFCodeCodeFirstLib.pdb
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\EFCodeCodeFirstLib\obj\Debug\net8.0\EFCodeCodeFirstLib.genruntimeconfig.cache
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\EFCodeCodeFirstLib\obj\Debug\net8.0\ref\EFCodeCodeFirstLib.dll

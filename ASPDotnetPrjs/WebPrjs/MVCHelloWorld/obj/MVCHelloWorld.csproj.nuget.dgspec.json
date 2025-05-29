@@ -1,17 +1,98 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\MVCHelloWorld.csproj": {}
+    "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\MVCHelloWorld.csproj": {}
   },
   "projects": {
-    "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj": {
+    "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCodeCodeFirstLib\\EFCodeCodeFirstLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj",
-        "projectName": "EFCoreDatabaseFirstLib",
-        "projectPath": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj",
+        "projectUniqueName": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCodeCodeFirstLib\\EFCodeCodeFirstLib.csproj",
+        "projectName": "EFCodeCodeFirstLib",
+        "projectPath": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCodeCodeFirstLib\\EFCodeCodeFirstLib.csproj",
         "packagesPath": "C:\\Users\\raman\\.nuget\\packages\\",
-        "outputPath": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\obj\\",
+        "outputPath": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCodeCodeFirstLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\raman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj",
+        "projectName": "EFCoreDatabaseFirstLib",
+        "projectPath": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj",
+        "packagesPath": "C:\\Users\\raman\\.nuget\\packages\\",
+        "outputPath": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -79,14 +160,14 @@
         }
       }
     },
-    "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\MVCHelloWorld.csproj": {
+    "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\MVCHelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\MVCHelloWorld.csproj",
+        "projectUniqueName": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\MVCHelloWorld.csproj",
         "projectName": "MVCHelloWorld",
-        "projectPath": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\MVCHelloWorld.csproj",
+        "projectPath": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\MVCHelloWorld.csproj",
         "packagesPath": "C:\\Users\\raman\\.nuget\\packages\\",
-        "outputPath": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\obj\\",
+        "outputPath": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -107,8 +188,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj": {
-                "projectPath": "D:\\TekSystem_NIIT\\aspdotnetsessiondemos\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj"
+              "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCodeCodeFirstLib\\EFCodeCodeFirstLib.csproj": {
+                "projectPath": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCodeCodeFirstLib\\EFCodeCodeFirstLib.csproj"
+              },
+              "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj": {
+                "projectPath": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj"
               }
             }
           }
@@ -129,6 +213,12 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.7, )"

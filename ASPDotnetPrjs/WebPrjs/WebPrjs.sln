@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCHelloWorld", "MVCHelloWo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreDatabaseFirstLib", "EFCoreDatabaseFirstLib\EFCoreDatabaseFirstLib.csproj", "{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCodeCodeFirstLib", "EFCodeCodeFirstLib\EFCodeCodeFirstLib.csproj", "{99D4CA18-B322-4B16-AB6C-234D8014A27A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99D4CA18-B322-4B16-AB6C-234D8014A27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99D4CA18-B322-4B16-AB6C-234D8014A27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99D4CA18-B322-4B16-AB6C-234D8014A27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99D4CA18-B322-4B16-AB6C-234D8014A27A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

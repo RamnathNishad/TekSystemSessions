@@ -1,3 +1,4 @@
+using EFCodeCodeFirstLib;
 using EFCoreDatabaseFirstLib;
 using Microsoft.EntityFrameworkCore;
 
@@ -19,8 +20,16 @@ namespace MVCHelloWorld
             });
             //configure DAL component for dependency injection
             builder.Services.AddTransient<IEmpDataAccess,EmpDataAccessLayer>();
-            
-            
+
+            //configure the DbContext for Customer database
+            builder.Services.AddDbContext<CustomerDbContext>(options =>
+            {
+                options.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=CustomerDB;Integrated Security=True;");
+            });
+            //configure DAL component for dependency injection of Customer Data Access class
+            builder.Services.AddTransient<ICustomerDataAccess, CustomerDataAcess>();
+
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

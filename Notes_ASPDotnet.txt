@@ -108,6 +108,34 @@ class EmployeeController : Controller
 	}
 }
 
+B) Code-First approach:- In this we define our model classes and context class, configure everything in program.cs file without having tables and database Then we run migration commands to generate tables and databses using scaffolding fetaure.
+
+Steps:-
+1) install the required following packages:
+-Microsoft.EntityFrameworkCore ------for all database core components
+-Microsoft.EntityFrameworkCore.SqlServer ----> for SQL Server database
+-Microsoft.EntityFrameworkCore.Tools   :- for running migration commands
+	
+2) Define the model class and Context class and map to the tables using DbSet<>
+
+3) Define the interface for DataAccessLayer class and code the crud methods as required
+4) Configure dependency injection for DbContext and DataAccessLayer class in Program.cs file as done in DB first approach. Specify connection string also in AddDbContext().
+5) To generate database and tables run migration commands:
+	->Add-Migration  -Name "initial_create"  ----this will generated the C# code for creating the databse tables as per the current state of Models and context defined.
+Note: Add-Migrate only generate C# code but does not create tables and database, we need to run another migration command for that:
+	->Update-Database  -Migration "initial_create"	
+
+6) further steps are same as db first approach i.e. inject the DAL class into controller and start using various operations.
+
+
+
+
+ 
+
+
+
+
+
 
 
 
