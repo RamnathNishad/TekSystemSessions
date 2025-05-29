@@ -8,7 +8,7 @@ namespace MVCHelloWorld.Controllers
         private readonly ICustomerDataAccess dal;
         public CustomerController(ICustomerDataAccess dal)
         {
-            this.dal= dal;
+            this.dal = dal;
         }
         public IActionResult Index()
         {

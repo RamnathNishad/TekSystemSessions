@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EFCoreDatabaseFirstLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b38259837eb20e7b022ef345faa6e6bf423e76e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0cdb7aef64ab9b19931bd20a1ece358e7ae674fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("EFCoreDatabaseFirstLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EFCoreDatabaseFirstLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

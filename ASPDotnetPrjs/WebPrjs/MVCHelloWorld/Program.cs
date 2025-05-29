@@ -27,7 +27,7 @@ namespace MVCHelloWorld
                 options.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=CustomerDB;Integrated Security=True;");
             });
             //configure DAL component for dependency injection of Customer Data Access class
-            builder.Services.AddTransient<ICustomerDataAccess, CustomerDataAcess>();
+            builder.Services.AddScoped<ICustomerDataAccess, CustomerDataAcess>();
 
 
             var app = builder.Build();

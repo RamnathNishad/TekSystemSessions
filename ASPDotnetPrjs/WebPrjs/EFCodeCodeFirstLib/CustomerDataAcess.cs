@@ -8,6 +8,7 @@ namespace EFCodeCodeFirstLib
 {
     public class CustomerDataAcess : ICustomerDataAccess
     {
+
         private readonly CustomerDbContext dbCtx;
         public CustomerDataAcess(CustomerDbContext _dbCtx)
         {
@@ -23,5 +24,6 @@ namespace EFCodeCodeFirstLib
         {
             return dbCtx.tbl_customers.ToList();
         }
+       
     }
 }

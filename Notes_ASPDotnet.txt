@@ -127,6 +127,118 @@ Note: Add-Migrate only generate C# code but does not create tables and database,
 
 6) further steps are same as db first approach i.e. inject the DAL class into controller and start using various operations.
 
+Cardinality Ratio among Models:-
+1:1
+=============================
+User--------->UserProfile
+
+public class User
+{
+	public int Id{get;set;}
+	public string UserName{get;set;}
+	public UserProfile Profile{get;set;}
+}
+
+
+public class UserProfile
+{
+	public int Id{get;set;}
+	public int UserId{get;set;}
+	public string FullName {get;set;}
+	public User User{get;set;}
+}
+
+1:M
+===========================================
+public class Order
+{
+	public int Id {get;set;}
+	public DateTime OrderDate{get;set;}
+	public List<OrderItem> Items{get;set;}
+} 
+
+
+public class OrderItem
+{
+	public int Id{get;set;}
+	public int OrderId {get;set;}
+	public string ProductName{get;set;}
+	public int Quantity{get;set;}
+	public Order Order{get;set;}
+}
+
+M:N
+===================================
+STUDENT--------Enrolls---------COURSE
+
+public class Student
+{
+	public int Id{get;set;}
+	public string Name {get;set;}
+	public List<Enrollment> Enrollments{get;set;}
+}
+
+public class Enrollment
+{
+	public int StudentId{get;set;}
+	public Student Student{get;set;}
+
+	public int 	CourseId{get;set;}
+	public Course Course{get;set;}
+
+	public DateTime EnrollmentDate {get;set;}
+}
+
+public class Course
+{
+	public int Id{get;set;}
+	public string Title{get;set;}
+	public List<Enrollment> Enrollments{get;set;}	
+}
+
+
+
+=========Ways of regstering services using Dependency Injection container================
+These ways specify the life-time and scope of the injected instances in the application. 
+a) AddScoped():-   There will be only single instance maintined for as many injection is being done withing the single request.
+b) AddTransient():- There will be a new instance created for every injection 
+c) AddSingleton():- only instance will be maintained globally.
+
+Note: Preferabily AddScoped is used for the componengts with per request session and AddTranisent is used for like stateless components for e.g logger, authentication, errorhandler  
+
+=======================ASP.NET Core Web API==================
+-It is a restful api over http protocol with some guideline as per restful features.
+-Restful api have methods as per request headers like HTTPGET,HTTPPOST,HTTPPUT and HTTPDELETE
+-Everything on the server is considered as a resource using url . Resource can be file, record in table, image etc
+-These are stateless services
+-Content negotiation:- web api services give response to the different types of clients in different formats like JSON,XML,Binary and Custom using MediaTypeFormatters component of the api.
+ASP.NET Web api has by default XML and JSON mediatypeFormatter available.
+If there requested format of response is not availble then a default response format is given.
+
+-Dependency Injection
+-Routing Services
+-Authentication
+-ErrorHandling
+-Middlewares 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
