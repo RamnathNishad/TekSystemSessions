@@ -1,5 +1,6 @@
 
 using EFCoreDatabaseFirstLib;
+using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.EntityFrameworkCore;
 
 namespace EmployeeAPI
@@ -11,7 +12,10 @@ namespace EmployeeAPI
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-            builder.Services.AddControllers();
+            builder.Services.AddControllers(options =>
+            {
+                options.OutputFormatters.Add(new XmlSerializerOutputFormatter());
+            });
             builder.Services.AddAuthorization();
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -26,7 +30,7 @@ namespace EmployeeAPI
             //configure DAL component for dependency injection
             builder.Services.AddTransient<IEmpDataAccess, EmpDataAccessLayer>();
 
-
+            builder.Services.AddScoped<GlobalExceptionHandler, GlobalExceptionHandler>();   
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -44,6 +48,8 @@ namespace EmployeeAPI
             };
 
             app.MapControllers();
+
+            app.UseMiddleware<GlobalExceptionHandler>();
 
             app.Run();
         }

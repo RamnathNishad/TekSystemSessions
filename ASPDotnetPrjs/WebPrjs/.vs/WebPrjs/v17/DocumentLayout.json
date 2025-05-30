@@ -3,43 +3,20 @@
   "WorkspaceRootPath": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EmpDB/True/SqlTable/dbo.tbl_employee.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31645E23-6387-4C9C-831A-9BA8C66A7939}|EmployeeAPI\\EmployeeAPI.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\employeeapi\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31645E23-6387-4C9C-831A-9BA8C66A7939}|EmployeeAPI\\EmployeeAPI.csproj|solutionrelative:employeeapi\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{31645E23-6387-4C9C-831A-9BA8C66A7939}|EmployeeAPI\\EmployeeAPI.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\employeeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31645E23-6387-4C9C-831A-9BA8C66A7939}|EmployeeAPI\\EmployeeAPI.csproj|solutionrelative:employeeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\mvchelloworld\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29138690-E87C-4E38-A494-75CCE30B38F1}|MVCHelloWorld\\MVCHelloWorld.csproj|solutionrelative:mvchelloworld\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFEC5951-7E4F-4EEC-A400-BCB84E1F988B}|LinqDemos\\LinqDemos.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\linqdemos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEC5951-7E4F-4EEC-A400-BCB84E1F988B}|LinqDemos\\LinqDemos.csproj|solutionrelative:linqdemos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCodeCodeFirstLib\\Migrations\\20250529091746_student_course_tbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EFCodeCodeFirstLib\\Migrations\\20250529091746_student_course_tbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFEC5951-7E4F-4EEC-A400-BCB84E1F988B}|LinqDemos\\LinqDemos.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\linqdemos\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEC5951-7E4F-4EEC-A400-BCB84E1F988B}|LinqDemos\\LinqDemos.csproj|solutionrelative:linqdemos\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99D4CA18-B322-4B16-AB6C-234D8014A27A}|EFCodeCodeFirstLib\\EFCodeCodeFirstLib.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\efcodecodefirstlib\\manytomanydemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99D4CA18-B322-4B16-AB6C-234D8014A27A}|EFCodeCodeFirstLib\\EFCodeCodeFirstLib.csproj|solutionrelative:efcodecodefirstlib\\manytomanydemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99D4CA18-B322-4B16-AB6C-234D8014A27A}|EFCodeCodeFirstLib\\EFCodeCodeFirstLib.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\efcodecodefirstlib\\customerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99D4CA18-B322-4B16-AB6C-234D8014A27A}|EFCodeCodeFirstLib\\EFCodeCodeFirstLib.csproj|solutionrelative:efcodecodefirstlib\\customerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCodeCodeFirstLib\\Migrations\\20250529090808_user_tbl_creation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EFCodeCodeFirstLib\\Migrations\\20250529090808_user_tbl_creation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99D4CA18-B322-4B16-AB6C-234D8014A27A}|EFCodeCodeFirstLib\\EFCodeCodeFirstLib.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\efcodecodefirstlib\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99D4CA18-B322-4B16-AB6C-234D8014A27A}|EFCodeCodeFirstLib\\EFCodeCodeFirstLib.csproj|solutionrelative:efcodecodefirstlib\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99D4CA18-B322-4B16-AB6C-234D8014A27A}|EFCodeCodeFirstLib\\EFCodeCodeFirstLib.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\efcodecodefirstlib\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{99D4CA18-B322-4B16-AB6C-234D8014A27A}|EFCodeCodeFirstLib\\EFCodeCodeFirstLib.csproj|solutionrelative:efcodecodefirstlib\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FFEC5951-7E4F-4EEC-A400-BCB84E1F988B}|LinqDemos\\LinqDemos.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\linqdemos\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFEC5951-7E4F-4EEC-A400-BCB84E1F988B}|LinqDemos\\LinqDemos.csproj|solutionrelative:linqdemos\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,128 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "dbo.tbl_employee [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EmpDB/True/SqlTable/dbo.tbl_employee.sql",
-              "ToolTip": "dbo.tbl_employee [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-29T10:15:47.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EmployeeAPI\\Program.cs",
               "RelativeDocumentMoniker": "EmployeeAPI\\Program.cs",
               "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EmployeeAPI\\Program.cs",
               "RelativeToolTip": "EmployeeAPI\\Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAiwBYAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T09:54:59.121Z",
+              "WhenOpened": "2025-05-30T09:43:21.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EmployeeAPI\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "EmployeeAPI\\EmployeeController.cs",
-              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EmployeeAPI\\EmployeeController.cs",
-              "RelativeToolTip": "EmployeeAPI\\EmployeeController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAA1wDAAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Department.cs",
+              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\LinqDemos\\Department.cs",
+              "RelativeDocumentMoniker": "LinqDemos\\Department.cs",
+              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\LinqDemos\\Department.cs",
+              "RelativeToolTip": "LinqDemos\\Department.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAABDwBMAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T09:52:13.222Z",
+              "WhenOpened": "2025-05-30T09:28:54.197Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\LinqDemos\\Employee.cs",
+              "RelativeDocumentMoniker": "LinqDemos\\Employee.cs",
+              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\LinqDemos\\Employee.cs",
+              "RelativeToolTip": "LinqDemos\\Employee.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwBcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T08:53:42.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Program.cs",
-              "RelativeDocumentMoniker": "MVCHelloWorld\\Program.cs",
-              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\MVCHelloWorld\\Program.cs",
-              "RelativeToolTip": "MVCHelloWorld\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAiwA0AAAAGAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\LinqDemos\\Program.cs",
+              "RelativeDocumentMoniker": "LinqDemos\\Program.cs",
+              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\LinqDemos\\Program.cs",
+              "RelativeToolTip": "LinqDemos\\Program.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAmwGYAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T09:30:08.524Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20250529091746_student_course_tbl.cs",
-              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCodeCodeFirstLib\\Migrations\\20250529091746_student_course_tbl.cs",
-              "RelativeDocumentMoniker": "EFCodeCodeFirstLib\\Migrations\\20250529091746_student_course_tbl.cs",
-              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCodeCodeFirstLib\\Migrations\\20250529091746_student_course_tbl.cs",
-              "RelativeToolTip": "EFCodeCodeFirstLib\\Migrations\\20250529091746_student_course_tbl.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAywDQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T09:17:46.756Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ManyToManyDemo.cs",
-              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCodeCodeFirstLib\\ManyToManyDemo.cs",
-              "RelativeDocumentMoniker": "EFCodeCodeFirstLib\\ManyToManyDemo.cs",
-              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCodeCodeFirstLib\\ManyToManyDemo.cs",
-              "RelativeToolTip": "EFCodeCodeFirstLib\\ManyToManyDemo.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAkwBEAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T09:13:51.383Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20250529090808_user_tbl_creation.cs",
-              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCodeCodeFirstLib\\Migrations\\20250529090808_user_tbl_creation.cs",
-              "RelativeDocumentMoniker": "EFCodeCodeFirstLib\\Migrations\\20250529090808_user_tbl_creation.cs",
-              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCodeCodeFirstLib\\Migrations\\20250529090808_user_tbl_creation.cs",
-              "RelativeToolTip": "EFCodeCodeFirstLib\\Migrations\\20250529090808_user_tbl_creation.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAywCMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T09:08:09.077Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CustomerDbContext.cs",
-              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCodeCodeFirstLib\\CustomerDbContext.cs",
-              "RelativeDocumentMoniker": "EFCodeCodeFirstLib\\CustomerDbContext.cs",
-              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCodeCodeFirstLib\\CustomerDbContext.cs",
-              "RelativeToolTip": "EFCodeCodeFirstLib\\CustomerDbContext.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAywBcAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T09:07:02.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserProfile.cs",
-              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCodeCodeFirstLib\\UserProfile.cs",
-              "RelativeDocumentMoniker": "EFCodeCodeFirstLib\\UserProfile.cs",
-              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCodeCodeFirstLib\\UserProfile.cs",
-              "RelativeToolTip": "EFCodeCodeFirstLib\\UserProfile.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAmwAgAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T09:04:26.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCodeCodeFirstLib\\User.cs",
-              "RelativeDocumentMoniker": "EFCodeCodeFirstLib\\User.cs",
-              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCodeCodeFirstLib\\User.cs",
-              "RelativeToolTip": "EFCodeCodeFirstLib\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T09:04:03.706Z",
+              "WhenOpened": "2025-05-30T08:45:48.644Z",
               "EditorCaption": ""
             }
           ]

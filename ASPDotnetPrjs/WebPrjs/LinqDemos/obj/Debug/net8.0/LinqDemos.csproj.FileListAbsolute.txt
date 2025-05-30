@@ -1,0 +1,15 @@
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\LinqDemos\bin\Debug\net8.0\LinqDemos.exe
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\LinqDemos\bin\Debug\net8.0\LinqDemos.deps.json
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\LinqDemos\bin\Debug\net8.0\LinqDemos.runtimeconfig.json
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\LinqDemos\bin\Debug\net8.0\LinqDemos.dll
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\LinqDemos\bin\Debug\net8.0\LinqDemos.pdb
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\LinqDemos\obj\Debug\net8.0\LinqDemos.GeneratedMSBuildEditorConfig.editorconfig
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\LinqDemos\obj\Debug\net8.0\LinqDemos.AssemblyInfoInputs.cache
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\LinqDemos\obj\Debug\net8.0\LinqDemos.AssemblyInfo.cs
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\LinqDemos\obj\Debug\net8.0\LinqDemos.csproj.CoreCompileInputs.cache
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\LinqDemos\obj\Debug\net8.0\LinqDemos.sourcelink.json
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\LinqDemos\obj\Debug\net8.0\LinqDemos.dll
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\LinqDemos\obj\Debug\net8.0\refint\LinqDemos.dll
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\LinqDemos\obj\Debug\net8.0\LinqDemos.pdb
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\LinqDemos\obj\Debug\net8.0\LinqDemos.genruntimeconfig.cache
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\LinqDemos\obj\Debug\net8.0\ref\LinqDemos.dll

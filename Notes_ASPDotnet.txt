@@ -221,6 +221,64 @@ If there requested format of response is not availble then a default response fo
 -ErrorHandling
 -Middlewares 
  
+=======================Error handling in WEB API=============================
+two ways to handle exception in api:-
+1) Action level : use try/catch in action method
+2) Global-error handling:- It is done using Middleware by configuring in Program.cs file
+
+ public class GlobalExceptionHandler : IMiddleware
+ {
+     public async Task InvokeAsync(HttpContext context, RequestDelegate next)
+     {
+         try
+         {
+             await next(context);
+         }
+         catch (Exception ex)
+         {
+             ProblemDetails details = new ProblemDetails
+             {
+               Status=(int)System.Net.HttpStatusCode.InternalServerError,
+               Detail="Some error occurred:" + ex.Message,
+               Type="Server error",
+               Title="Internal server error"
+             };
+             context.Response.ContentType = "application/json";
+             await context.Response.WriteAsync(JsonSerializer.Serialize(details));
+         }
+     }
+ }
+
+--configure the GlobalExceptionHandler in Program.cs
+builder.Services.AddScoped<GlobalExceptionHandler>();
+---
+app.UseMiddleware<GlobalExceptionHandler>();
+
+-----------------------=========LINQ syntaxes=====================
+LINQ :- Language Integrated Query for different types of source with the common programming model.
+It supports two flavors of syntaxes:-
+1) using operators :- select,from,orderby, group by and so on 
+2) using extension methods with lambda operator
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
