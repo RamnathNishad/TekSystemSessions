@@ -84,3 +84,4 @@ D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\EmployeeAPI\bin\Debug\
 D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\EmployeeAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\EmployeeAPI\bin\Debug\net8.0\EFCoreDatabaseFirstLib.dll
 D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\EmployeeAPI\bin\Debug\net8.0\EFCoreDatabaseFirstLib.pdb
+D:\TekSystem_NIIT\TekSystemSessions\ASPDotnetPrjs\WebPrjs\EmployeeAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

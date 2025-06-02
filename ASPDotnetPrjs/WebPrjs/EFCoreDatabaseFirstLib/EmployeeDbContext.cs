@@ -16,5 +16,6 @@ namespace EFCoreDatabaseFirstLib
         }
 
         public DbSet<Employee> tbl_employee { get; set; }
+        public DbSet<UserDetails> tbl_user { get; set; }
     }
 }

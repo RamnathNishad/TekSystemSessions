@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "WjXZfCy32SG2YOIBmm62ZPN8Xg2o42TxB2J8UW9zbVI=",
+  "Source": "WebClientCORSDemo",
+  "BasePath": "_content/WebClientCORSDemo",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebClientCORSDemo\\wwwroot",
+      "Source": "WebClientCORSDemo",
+      "ContentRoot": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\WebClientCORSDemo\\wwwroot\\",
+      "BasePath": "_content/WebClientCORSDemo",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\WebClientCORSDemo\\wwwroot\\home.html",
+      "SourceId": "WebClientCORSDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\WebClientCORSDemo\\wwwroot\\",
+      "BasePath": "_content/WebClientCORSDemo",
+      "RelativePath": "home#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7k3l29hx8y",
+      "Integrity": "R1u4NxoCFwoxny6Jzcns55r0+a2KO31rztvQr8meUaE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\home.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "home.7k3l29hx8y.html",
+      "AssetFile": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\WebClientCORSDemo\\wwwroot\\home.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "264"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R1u4NxoCFwoxny6Jzcns55r0+a2KO31rztvQr8meUaE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 04:37:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7k3l29hx8y"
+        },
+        {
+          "Name": "label",
+          "Value": "home.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-R1u4NxoCFwoxny6Jzcns55r0+a2KO31rztvQr8meUaE="
+        }
+      ]
+    },
+    {
+      "Route": "home.html",
+      "AssetFile": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\WebClientCORSDemo\\wwwroot\\home.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "264"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R1u4NxoCFwoxny6Jzcns55r0+a2KO31rztvQr8meUaE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 04:37:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R1u4NxoCFwoxny6Jzcns55r0+a2KO31rztvQr8meUaE="
+        }
+      ]
+    }
+  ]
+}

@@ -38,6 +38,21 @@ namespace EFCoreDatabaseFirstLib
             return dbCtx.tbl_employee.ToList();
         }
 
+        public bool Login(UserDetails userDetails)
+        {
+            var user = dbCtx.tbl_user
+                            .Where(o => o.UserName == userDetails.UserName && o.Password == userDetails.Password)
+                            .SingleOrDefault();
+            if (user == null)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
+
         public void UpdateEmp(Employee emp)
         {
             var record = dbCtx.tbl_employee.Find(emp.Ecode);

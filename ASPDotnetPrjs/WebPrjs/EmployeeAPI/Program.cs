@@ -1,7 +1,9 @@
 
 using EFCoreDatabaseFirstLib;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 namespace EmployeeAPI
 {
@@ -25,12 +27,48 @@ namespace EmployeeAPI
             //configure DbContext options
             builder.Services.AddDbContext<EmployeeDbContext>(options =>
             {
-                options.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=EmpDB;Integrated Security=True;");
+                options.UseSqlServer(builder.Configuration.GetConnectionString("constr"));
             });
             //configure DAL component for dependency injection
             builder.Services.AddTransient<IEmpDataAccess, EmpDataAccessLayer>();
 
-            builder.Services.AddScoped<GlobalExceptionHandler, GlobalExceptionHandler>();   
+            builder.Services.AddScoped<GlobalExceptionHandler, GlobalExceptionHandler>();
+
+            //add CORS policy for client access
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("clients-allowed", opt =>
+                {
+                    opt.WithOrigins("http://localhost:5132")
+                       .AllowAnyMethod();
+                });
+            });
+
+            //configure jwt authentcation
+            builder.Services.AddAuthentication(o =>
+            {
+                o.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                o.DefaultChallengeScheme= JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(x =>
+            {
+                var key = builder.Configuration["JWT:Key"];
+                var byteKey=System.Text.Encoding.UTF8.GetBytes(key); ;
+
+                x.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateAudience = true,
+                    ValidateIssuer = true,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+
+                    ValidAudience= builder.Configuration["JWT:Audience"],
+                    ValidIssuer= builder.Configuration["JWT:Issuer"],
+                    IssuerSigningKey=new SymmetricSecurityKey(byteKey)
+                };
+            });
+
+
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -40,7 +78,7 @@ namespace EmployeeAPI
                 app.UseSwaggerUI();
             }
 
-            app.UseAuthorization();
+            
 
             var summaries = new[]
             {
@@ -50,6 +88,13 @@ namespace EmployeeAPI
             app.MapControllers();
 
             app.UseMiddleware<GlobalExceptionHandler>();
+
+            //use CORS policy
+            app.UseCors("clients-allowed");
+
+            //it shud in this same sequence
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.Run();
         }

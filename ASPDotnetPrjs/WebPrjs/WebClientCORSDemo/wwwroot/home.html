@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        function display() {
+            var url = "http://localhost:5228/api/Employee/GetAllEmps";
+
+            fetch(url)
+                .then(res => res.json())
+                .then(data => {
+                    var ele = "<table border=1>";
+                    ele += "<tr><th>Ecode</th>";
+                    ele += "<th>Ename</th>";
+                    ele += "<th>Salary</th>";
+                    ele += "<th>Deptid</th></tr>";
+
+                    data.forEach(e => {
+                        ele += "<tr><td>" + e.ecode + "</td>";
+                        ele += "<td>" + e.ename + "</td>";
+                        ele += "<td>" + e.salary + "</td>";
+                        ele += "<td>" + e.deptid + "</td>";
+                        ele += "</tr>";
+                    });
+
+                    d1.innerHTML = ele;
+                });
+        }
+    </script>
+</head>
+<body>
+    <h1>Consuming WEB API using JavaScript</h1><hr/>
+    <input type="button" value="Display" onclick="display()" />
+    <div id="d1"></div>
+</body>
+</html>

@@ -260,6 +260,101 @@ It supports two flavors of syntaxes:-
 1) using operators :- select,from,orderby, group by and so on 
 2) using extension methods with lambda operator
 
+=========================CORS Policy in WEB API=========================
+CORS:- Cross-Origin-Resource-Sharing:- By default API endpoints access are forbidden from the clients of different domain than api. We need enable the CORS policy in the WEB API to give permissions for origins of clients and also for HTTP Headers and HTTP methods which client can use to communicate api.
+
+Steps in ASP.NET WEB API to configure CORS:-
+1) Add the Cors policy and allow the permissions for the client origins and methods
+2) Use the Cors policy configured in the step1 before app.Run() in Program.cs file.
+
+
+===================JWT Token-based Authentication for WEBAPI===========
+JWT:- JSON WEB TOKEN
+
+Authentication:- what are the users who can access the services 
+Authorization:- What are the permissions given to the authenticated users
+
+How token-based authentication works:-
+1) First api must be configured for token-based authentication in Program.cs file
+2) Service should have endpoint for generating token for the valid users using their credentials and other info like secret key, audience,issuer,claims
+3) API controller and/or action methods must be decorated with [Authorize]
+
+steps:-
+1) Add the jwt bearer token packages
+a) Microsoft.AspNetCore.Authentication.JwtBearer
+b) System.IdentityModel.Tokens.Jwt
+
+2) We need to add JWT configuration in Program.cs file
+//configure jwt authentcation
+builder.Services.AddAuthentication(o =>
+{
+    o.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    o.DefaultChallengeScheme= JwtBearerDefaults.AuthenticationScheme;
+}).AddJwtBearer(x =>
+{
+    var key = "abcdefghijklmnopqrstuvwxyz123456";
+    var byteKey=System.Text.Encoding.UTF8.GetBytes(key); ;
+
+    x.TokenValidationParameters = new TokenValidationParameters
+    {
+        ValidateAudience = true,
+        ValidateIssuer = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
+
+        ValidAudience="https://teksystems.com",
+        ValidIssuer= "https://teksystems.com",
+        IssuerSigningKey=new SymmetricSecurityKey(byteKey)
+    };
+});
+
+3) Add the authentication and Authorization services befor app.Run()
+//it shud in this same sequence
+ app.UseAuthentication();
+ app.UseAuthorization();
+
+4) Using client details like audience,issuer,secrek key, generate token using AccountController:
+string GetToken(UserDetails user)
+{
+    var key = _config["JWT:Key"];
+    var byteKey=System.Text.Encoding.UTF8.GetBytes(key);
+
+    var descriptor = new SecurityTokenDescriptor
+    {
+        Issuer= _config["JWT:Audience"],
+        Audience= _config["JWT:Issuer"],
+        Expires= DateTime.UtcNow.AddMinutes(10),
+        SigningCredentials=new SigningCredentials(new SymmetricSecurityKey(byteKey),SecurityAlgorithms.HmacSha256Signature)
+    };
+
+    //generate token using descriptor 
+    var tokenHandler = new JwtSecurityTokenHandler();
+    var token = tokenHandler.CreateToken(descriptor);
+    return tokenHandler.WriteToken(token);            
+}
+
+Note: Make sure appsettings.json file should have all the values:
+"JWT": {
+  "key": "abcdefghijklmnopqrstuvwxyz123456",
+  "Issuer": "https://teksystems.com",
+  "Audience": "https://teksystems.com"
+}
+
+5) Use this token in http header to send request to authorized endpoints of the api.
+HTTP Authorization Header:
+	"Bearer token"
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

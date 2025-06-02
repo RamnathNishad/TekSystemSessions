@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "EmployeeAPI.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "EFCoreDatabaseFirstLib.UserDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EmployeeAPI.EmployeeController",
     "Method": "AddEmployee",
     "RelativePath": "api/Employee/AddEmployee",

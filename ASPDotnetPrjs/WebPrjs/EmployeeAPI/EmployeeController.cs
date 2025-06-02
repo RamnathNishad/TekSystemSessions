@@ -1,4 +1,5 @@
 ﻿using EFCoreDatabaseFirstLib;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Net;
 
@@ -8,6 +9,7 @@ namespace EmployeeAPI
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class EmployeeController : ControllerBase
     {
         private readonly IEmpDataAccess dal;
@@ -116,5 +118,6 @@ namespace EmployeeAPI
         {
             return a/b;
         }
+     
     }
 }

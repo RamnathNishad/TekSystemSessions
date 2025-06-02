@@ -13,5 +13,7 @@ namespace EFCoreDatabaseFirstLib
         void AddEmployee(Employee emp);
         void DeleteEmpById(int id);
         void UpdateEmp(Employee emp);
+
+        bool Login(UserDetails userDetails);
     }
 }

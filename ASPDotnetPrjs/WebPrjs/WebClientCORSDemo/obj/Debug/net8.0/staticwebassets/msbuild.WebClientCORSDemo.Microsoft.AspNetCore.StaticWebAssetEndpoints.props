@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/WebClientCORSDemo/home.7k3l29hx8y.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\home.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7k3l29hx8y"},{"Name":"integrity","Value":"sha256-R1u4NxoCFwoxny6Jzcns55r0\u002Ba2KO31rztvQr8meUaE="},{"Name":"label","Value":"_content/WebClientCORSDemo/home.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"264"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022R1u4NxoCFwoxny6Jzcns55r0\u002Ba2KO31rztvQr8meUaE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 02 Jun 2025 04:37:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/WebClientCORSDemo/home.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\home.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-R1u4NxoCFwoxny6Jzcns55r0\u002Ba2KO31rztvQr8meUaE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"264"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022R1u4NxoCFwoxny6Jzcns55r0\u002Ba2KO31rztvQr8meUaE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 02 Jun 2025 04:37:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
