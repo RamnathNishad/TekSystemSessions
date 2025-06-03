@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "yOce/1xNKkhfsbqdW16ijg7rcf56xO6R1rIbligakYo=",
+  "Source": "MongoDBCrudDemoApi",
+  "BasePath": "_content/MongoDBCrudDemoApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

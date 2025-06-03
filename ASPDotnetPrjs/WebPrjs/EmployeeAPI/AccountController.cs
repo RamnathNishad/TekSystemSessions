@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
 
 namespace EmployeeAPI
 {
@@ -35,20 +36,23 @@ namespace EmployeeAPI
         string GetToken(UserDetails user)
         {
             var key = _config["JWT:Key"];
-            var byteKey=System.Text.Encoding.UTF8.GetBytes(key);
+            var byteKey= new SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(key));
 
-            var descriptor = new SecurityTokenDescriptor
-            {
-                Issuer= _config["JWT:Audience"],
-                Audience= _config["JWT:Issuer"],
-                Expires= DateTime.UtcNow.AddMinutes(10),
-                SigningCredentials=new SigningCredentials(new SymmetricSecurityKey(byteKey),SecurityAlgorithms.HmacSha256Signature)
-            };
+            var descriptor = new JwtSecurityToken
+                (
+                    issuer: _config["JWT:Issuer"],
+                    audience: _config["JWT:Audience"],
+                    expires: DateTime.Now.AddMinutes(20),
+                    signingCredentials: new SigningCredentials(byteKey, SecurityAlgorithms.HmacSha256),
+                    claims: new List<Claim>
+                    {
+                        new Claim(ClaimTypes.Role,user.Role)
+                    }
+                );
 
             //generate token using descriptor 
             var tokenHandler = new JwtSecurityTokenHandler();
-            var token = tokenHandler.CreateToken(descriptor);
-            return tokenHandler.WriteToken(token);            
+            return tokenHandler.WriteToken(descriptor);            
         }
     }
 }

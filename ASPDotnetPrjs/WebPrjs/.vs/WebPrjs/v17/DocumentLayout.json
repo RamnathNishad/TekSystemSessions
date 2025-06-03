@@ -3,44 +3,16 @@
   "WorkspaceRootPath": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31645E23-6387-4C9C-831A-9BA8C66A7939}|EmployeeAPI\\EmployeeAPI.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\employeeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{31645E23-6387-4C9C-831A-9BA8C66A7939}|EmployeeAPI\\EmployeeAPI.csproj|solutionrelative:employeeapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{513078D2-FB9D-4095-8FA4-358572D186C7}|MongoDBCrudDemoApi\\MongoDBCrudDemoApi.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\mongodbcruddemoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513078D2-FB9D-4095-8FA4-358572D186C7}|MongoDBCrudDemoApi\\MongoDBCrudDemoApi.csproj|solutionrelative:mongodbcruddemoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31645E23-6387-4C9C-831A-9BA8C66A7939}|EmployeeAPI\\EmployeeAPI.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\employeeapi\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31645E23-6387-4C9C-831A-9BA8C66A7939}|EmployeeAPI\\EmployeeAPI.csproj|solutionrelative:employeeapi\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{513078D2-FB9D-4095-8FA4-358572D186C7}|MongoDBCrudDemoApi\\MongoDBCrudDemoApi.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\mongodbcruddemoapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513078D2-FB9D-4095-8FA4-358572D186C7}|MongoDBCrudDemoApi\\MongoDBCrudDemoApi.csproj|solutionrelative:mongodbcruddemoapi\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31645E23-6387-4C9C-831A-9BA8C66A7939}|EmployeeAPI\\EmployeeAPI.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\employeeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31645E23-6387-4C9C-831A-9BA8C66A7939}|EmployeeAPI\\EmployeeAPI.csproj|solutionrelative:employeeapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}|EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\efcoredatabasefirstlib\\empdataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}|EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj|solutionrelative:efcoredatabasefirstlib\\empdataaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}|EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\efcoredatabasefirstlib\\iempdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}|EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj|solutionrelative:efcoredatabasefirstlib\\iempdataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}|EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\efcoredatabasefirstlib\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}|EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj|solutionrelative:efcoredatabasefirstlib\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}|EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\efcoredatabasefirstlib\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}|EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj|solutionrelative:efcoredatabasefirstlib\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}|EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\efcoredatabasefirstlib\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C980D2BA-5583-40BA-96CC-B29BC6A25BE1}|EFCoreDatabaseFirstLib\\EFCoreDatabaseFirstLib.csproj|solutionrelative:efcoredatabasefirstlib\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{31645E23-6387-4C9C-831A-9BA8C66A7939}|EmployeeAPI\\EmployeeAPI.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\employeeapi\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31645E23-6387-4C9C-831A-9BA8C66A7939}|EmployeeAPI\\EmployeeAPI.csproj|solutionrelative:employeeapi\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD58DA6E-4172-4BEB-AC98-A9682FB4AC7D}|WebClientCORSDemo\\WebClientCORSDemo.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\webclientcorsdemo\\wwwroot\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BD58DA6E-4172-4BEB-AC98-A9682FB4AC7D}|WebClientCORSDemo\\WebClientCORSDemo.csproj|solutionrelative:webclientcorsdemo\\wwwroot\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{513078D2-FB9D-4095-8FA4-358572D186C7}|MongoDBCrudDemoApi\\MongoDBCrudDemoApi.csproj|d:\\teksystem_niit\\teksystemsessions\\aspdotnetprjs\\webprjs\\mongodbcruddemoapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{513078D2-FB9D-4095-8FA4-358572D186C7}|MongoDBCrudDemoApi\\MongoDBCrudDemoApi.csproj|solutionrelative:mongodbcruddemoapi\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,132 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EmployeeAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "EmployeeAPI\\appsettings.json",
-              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EmployeeAPI\\appsettings.json",
-              "RelativeToolTip": "EmployeeAPI\\appsettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA3wAsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-02T09:32:27.572Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmpDataAccessLayer.cs",
-              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EmpDataAccessLayer.cs",
-              "RelativeDocumentMoniker": "EFCoreDatabaseFirstLib\\EmpDataAccessLayer.cs",
-              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EmpDataAccessLayer.cs",
-              "RelativeToolTip": "EFCoreDatabaseFirstLib\\EmpDataAccessLayer.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAMwDMAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T08:54:00.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IEmpDataAccess.cs",
-              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\IEmpDataAccess.cs",
-              "RelativeDocumentMoniker": "EFCoreDatabaseFirstLib\\IEmpDataAccess.cs",
-              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\IEmpDataAccess.cs",
-              "RelativeToolTip": "EFCoreDatabaseFirstLib\\IEmpDataAccess.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA7wBAAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T08:53:29.978Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmployeeDbContext.cs",
-              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EmployeeDbContext.cs",
-              "RelativeDocumentMoniker": "EFCoreDatabaseFirstLib\\EmployeeDbContext.cs",
-              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\EmployeeDbContext.cs",
-              "RelativeToolTip": "EFCoreDatabaseFirstLib\\EmployeeDbContext.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T08:47:37.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserDetails.cs",
-              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\UserDetails.cs",
-              "RelativeDocumentMoniker": "EFCoreDatabaseFirstLib\\UserDetails.cs",
-              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\UserDetails.cs",
-              "RelativeToolTip": "EFCoreDatabaseFirstLib\\UserDetails.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T08:46:48.324Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\Employee.cs",
-              "RelativeDocumentMoniker": "EFCoreDatabaseFirstLib\\Employee.cs",
-              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EFCoreDatabaseFirstLib\\Employee.cs",
-              "RelativeToolTip": "EFCoreDatabaseFirstLib\\Employee.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T08:46:38.948Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EmployeeAPI\\AccountController.cs",
-              "RelativeDocumentMoniker": "EmployeeAPI\\AccountController.cs",
-              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EmployeeAPI\\AccountController.cs",
-              "RelativeToolTip": "EmployeeAPI\\AccountController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAuwCUAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T08:42:05.005Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "EmployeeController.cs",
-              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EmployeeAPI\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "EmployeeAPI\\EmployeeController.cs",
-              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EmployeeAPI\\EmployeeController.cs",
-              "RelativeToolTip": "EmployeeAPI\\EmployeeController.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAAAHcAAAAJAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\MongoDBCrudDemoApi\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "MongoDBCrudDemoApi\\Controllers\\EmployeeController.cs",
+              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\MongoDBCrudDemoApi\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "MongoDBCrudDemoApi\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAcwAwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T05:20:59.944Z",
+              "WhenOpened": "2025-06-03T05:18:18.691Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EmployeeAPI\\Program.cs",
-              "RelativeDocumentMoniker": "EmployeeAPI\\Program.cs",
-              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\EmployeeAPI\\Program.cs",
-              "RelativeToolTip": "EmployeeAPI\\Program.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAA0wEAAAABCAAAAAAAAAA==",
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\MongoDBCrudDemoApi\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "MongoDBCrudDemoApi\\Models\\Employee.cs",
+              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\MongoDBCrudDemoApi\\Models\\Employee.cs",
+              "RelativeToolTip": "MongoDBCrudDemoApi\\Models\\Employee.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T04:42:36.412Z",
+              "WhenOpened": "2025-06-03T05:07:24.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "home.html",
-              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\WebClientCORSDemo\\wwwroot\\home.html",
-              "RelativeDocumentMoniker": "WebClientCORSDemo\\wwwroot\\home.html",
-              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\WebClientCORSDemo\\wwwroot\\home.html",
-              "RelativeToolTip": "WebClientCORSDemo\\wwwroot\\home.html",
-              "ViewState": "AgIAAAMAAAAAAAAAAAA1wBgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-06-02T04:35:00.242Z",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\MongoDBCrudDemoApi\\Program.cs",
+              "RelativeDocumentMoniker": "MongoDBCrudDemoApi\\Program.cs",
+              "ToolTip": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\MongoDBCrudDemoApi\\Program.cs",
+              "RelativeToolTip": "MongoDBCrudDemoApi\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAywBgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T05:04:36.13Z",
               "EditorCaption": ""
             }
           ]

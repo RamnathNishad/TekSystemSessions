@@ -345,6 +345,54 @@ HTTP Authorization Header:
 	"Bearer token"
 
 
+=====================Role-based authentication and authorization=================
+Steps :
+1) We need to add Roles in the controller actions
+[Authorize(Roles="admin")]
+
+2) Add Authorization in the Program.cs file for the role
+ builder.Services.AddAuthorization(options =>
+ {
+     options.AddPolicy("admin-policy", o =>
+     {
+         o.RequireRole("admin");
+     });
+ });
+
+3) While generating token, we also have add "claims" like Roles as per user's credention:
+ var descriptor = new JwtSecurityToken
+     (
+         issuer: _config["JWT:Issuer"],
+         audience: _config["JWT:Audience"],
+         expires: DateTime.Now.AddMinutes(20),
+         signingCredentials: new SigningCredentials(byteKey, SecurityAlgorithms.HmacSha256),
+         claims: new List<Claim>
+         {
+             new Claim(ClaimTypes.Role,user.Role)
+         }
+     );
+
+4) To test, generate token based on roles and add to the requestion header as Jwt Bearer token while accessing the controller actions.
+
+
+===========================Mongodb CRUD operations using ASP.NET Core==============
+-Mongodb is not supported directly with EF Core as it is a NOSQL database and EF Core is for relational databases.
+-We shud use Mongodb database driver component for connectivity as we use in ADO.NET
+
+Steps to connect Mongodb in .NEt Core:
+1) Install MongoDB Driver
+Nuget package manager: dotnet add package MongoDB.Driver
+
+
+
+
+
+
+
+
+
+
+
 
 
 

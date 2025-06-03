@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WjXZfCy32SG2YOIBmm62ZPN8Xg2o42TxB2J8UW9zbVI=",
+  "Hash": "x2DRuJfASTLiTPjOEB6L3FJdhnqMeyoWbcx891AO/5U=",
   "Source": "WebClientCORSDemo",
   "BasePath": "_content/WebClientCORSDemo",
   "Mode": "Default",
@@ -31,59 +31,14 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7k3l29hx8y",
-      "Integrity": "R1u4NxoCFwoxny6Jzcns55r0+a2KO31rztvQr8meUaE=",
+      "Fingerprint": "nvqrqih6fq",
+      "Integrity": "0zKq1KKJColc5vusG/bBYMPAkICISlvXgKLn12K7ibA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\home.html"
     }
   ],
   "Endpoints": [
-    {
-      "Route": "home.7k3l29hx8y.html",
-      "AssetFile": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\WebClientCORSDemo\\wwwroot\\home.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "264"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"R1u4NxoCFwoxny6Jzcns55r0+a2KO31rztvQr8meUaE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 02 Jun 2025 04:37:24 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "7k3l29hx8y"
-        },
-        {
-          "Name": "label",
-          "Value": "home.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-R1u4NxoCFwoxny6Jzcns55r0+a2KO31rztvQr8meUaE="
-        }
-      ]
-    },
     {
       "Route": "home.html",
       "AssetFile": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\WebClientCORSDemo\\wwwroot\\home.html",
@@ -95,7 +50,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "264"
+          "Value": "1172"
         },
         {
           "Name": "Content-Type",
@@ -103,11 +58,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"R1u4NxoCFwoxny6Jzcns55r0+a2KO31rztvQr8meUaE=\""
+          "Value": "\"0zKq1KKJColc5vusG/bBYMPAkICISlvXgKLn12K7ibA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 02 Jun 2025 04:37:24 GMT"
+          "Value": "Mon, 02 Jun 2025 05:20:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -117,7 +72,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-R1u4NxoCFwoxny6Jzcns55r0+a2KO31rztvQr8meUaE="
+          "Value": "sha256-0zKq1KKJColc5vusG/bBYMPAkICISlvXgKLn12K7ibA="
+        }
+      ]
+    },
+    {
+      "Route": "home.nvqrqih6fq.html",
+      "AssetFile": "D:\\TekSystem_NIIT\\TekSystemSessions\\ASPDotnetPrjs\\WebPrjs\\WebClientCORSDemo\\wwwroot\\home.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0zKq1KKJColc5vusG/bBYMPAkICISlvXgKLn12K7ibA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Jun 2025 05:20:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nvqrqih6fq"
+        },
+        {
+          "Name": "label",
+          "Value": "home.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0zKq1KKJColc5vusG/bBYMPAkICISlvXgKLn12K7ibA="
         }
       ]
     }

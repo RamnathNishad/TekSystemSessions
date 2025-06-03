@@ -9,7 +9,7 @@ namespace EmployeeAPI
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
+    [Authorize(Roles ="admin")]
     public class EmployeeController : ControllerBase
     {
         private readonly IEmpDataAccess dal;

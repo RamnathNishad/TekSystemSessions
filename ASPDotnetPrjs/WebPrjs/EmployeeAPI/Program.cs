@@ -67,7 +67,13 @@ namespace EmployeeAPI
                 };
             });
 
-
+            builder.Services.AddAuthorization(options =>
+            {
+                options.AddPolicy("admin-policy", o =>
+                {
+                    o.RequireRole("admin");
+                });
+            });
 
             var app = builder.Build();
 
